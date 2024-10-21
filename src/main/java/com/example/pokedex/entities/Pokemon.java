@@ -11,6 +11,9 @@ public class Pokemon {
     private int id;
     private String name;
     private String description;
+
+    @ManyToOne
+    private Region region;
     private float height;
     private float weight;
     private boolean gender;
